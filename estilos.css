@@ -1,0 +1,48 @@
+body {
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://www.ivancornejoofficial.com/wp-content/uploads/sites/2673/2024/07/og-ic-compressed.jpg');
+            background-size: cover;
+            color: #f0eada; 
+            font-family: 'Montserrat', sans-serif; /*Letra para el cuerpo*/
+            text-align: center;
+            padding-top: 50px;
+        }
+
+        h1 {
+            font-family: 'Bebas Neue', sans-serif; /*Letra del póster para el nombre de Iván Cornejo*/
+            font-size: 80px;
+            letter-spacing: 5 px;
+            color: white;
+
+}
+
+.cancion-card {
+            border: 1px solid #333;
+            padding: 40px;
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            display: inline-block;
+        }
+
+
+        button {
+            background-color: #9e3b06; /* Aquí cambié por un naranja como la estética de su ultimo albúm*/
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s; /*Para que el cambio de color se vea suave*/
+            margin-top: 15px;
+        }
+    </style>
+ </head>
+<body>
+    <div class="cancion-card">
+        <h1>Iván Cornejo</h1>
+        <p id="letra">"Dónde estás"</p>
+        <button onclick="cambiarFrase()">Muestrame una frase</button>
+    </div>
