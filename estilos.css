@@ -1,7 +1,31 @@
-title {
-    background-size: cover;
-    color: #f0eada;
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    padding-top: 50px;
-}
+.cancion-card {
+            border: 1px solid #333;
+            padding: 40px;
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            display: inline-block;
+        }
+
+
+        button {
+            background-color: #9e3b06; /* Aquí cambié por un naranja como la estética de su ultimo albúm*/
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s; /*Para que el cambio de color se vea suave*/
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="cancion-card">
+        <h1>Iván Cornejo</h1>
+        <p id="letra">"Dónde estás"</p>
+        <button onclick="cambiarFrase()">Muestrame una frase</button>
+    </div>
