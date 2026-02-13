@@ -19,6 +19,7 @@ font-family: 'Bebas Neue', sans-serif;
 font-size: 30px;
             letter-spacing: 5px;
             color: white;
+            
 }
         nav {
             border: 1px solid #333;
@@ -28,6 +29,7 @@ font-size: 30px;
             backdrop-filter: blur(10px);
             border-radius: 20px;
             display: inline-block;
+           
         }
 ol{
 font-family: 'Montserrat', sans-serif;
@@ -41,6 +43,7 @@ margin: 12px 0;
 font-family: 'Montserrat', sans-serif;
 font-size: 15px;
 color: #f0eada;
+text-align: left;
 
 }
 
