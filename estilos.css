@@ -20,7 +20,7 @@ font-size: 30px;
             letter-spacing: 5px;
             color: white;
 }
-        .cancion-card {
+        nav {
             border: 1px solid #333;
             padding: 40px;
             display: inline-block;
@@ -29,21 +29,38 @@ font-size: 30px;
             border-radius: 20px;
             display: inline-block;
         }
+ol{
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+color: violet;
+
+}
+
+nav li {
+margin: 12px 0;
+font-family: 'Montserrat', sans-serif;
+font-size: 15px;
+color: #f0eada;
+
+}
+
+nav a {
+text-decoration: none;
+color: antiquewhite;
+transition: color 0.3s;
+}
 
 
         button {
-            background-color: #9e3b06; /* Aquí cambié por un naranja como la estética de su ultimo albúm*/
             color: white;
             border: none;
             padding: 12px 25px;
-            font-family: 'Bebas Neue', sans-serif;
+            font-family: 'Montserrat', sans-serif;
             font-size: 20px;
             border-radius: 5px;
             cursor: pointer;
-            transition: 0.3s; /*Para que el cambio de color se vea suave*/
+            transition: 0.3s; 
             margin-top: 15px;
         }
-    </style>
-</head>
-</body>
+
     
