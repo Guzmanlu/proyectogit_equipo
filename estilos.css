@@ -66,4 +66,11 @@ transition: color 0.3s;
             margin-top: 15px;
         }
 
+        h3 {
+            margin: 12px 0;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 15px;
+            color: #f0eada;
+        }
+
     
