@@ -20,5 +20,10 @@ window.addEventListener("load", () => {
                 mainHeader.textContent = 'Escoge tu canción favorita y disfruta de una experiencia relajante';
             }
         });
+
+        audio.addEventListener('ended', () => {
+            let siguienteIndice = (index + 1) % audios.length;
+            audios[siguienteIndice].play();
+        });
     });
 });
