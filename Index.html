@@ -2,84 +2,92 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reproductor de Música de Los Truncos</title>
 </head>
 <body>
-    <header><h1>Reproductor de Música</h1></header>
-    <nav>
- <h2>Lista de reproducción</h2>
-    <a href="">HASTA LA MUERTE- Eslabon Armado ft. Ivan Cornejo</a><br>
-    <a href="">ROSA PASTEL- Belanova</a><br>
-    <a href="">YOU GET WHAT YOU GIVE - New Radicals</a><br>
-    <a href="">BORRO CASSETTE- Maluma</a><br>
-    <a href="">TUS OJOS - Benito</a><br>
-    <a href="">AHORA TE PUEDES MARCHAR-Luis Miguel</a><br>
-    </nav>
+
+    <header>
+        <h1>Reproductor de Música</h1>
+        <p>Proyecto: <strong>Los Truncos</strong></p>
+    </header>
+
     <hr>
-    <h2>Escoge tu cancion favorita y disfruta de una experiencia relajante</h2>
 
-    <section>
-    <p><strong>Canción:</strong> HASTA LA MUERTE</p>
-    <p><strong>Artista:</strong> Eslabon Armado ft. Ivan Cornejo</p>
+    <nav>
+        <h2>Lista de reproducción</h2>
+        <ol>
+            <li><a href="#track1">HASTA LA MUERTE - Eslabon Armado ft. Ivan Cornejo</a></li>
+            <li><a href="#track2">ROSA PASTEL - Belanova</a></li>
+            <li><a href="#track3">YOU GET WHAT YOU GIVE - New Radicals</a></li>
+            <li><a href="#track4">BORRO CASSETTE - Maluma</a></li>
+            <li><a href="#track5">TUS OJOS - Benito</a></li>
+            <li><a href="#track6">AHORA TE PUEDES MARCHAR - Luis Miguel</a></li>
+        </ol>
+    </nav>
 
-    <audio controls>
-        <source src="cancion.mp3" type="audio/mpeg">
-        Tu navegador no soporta el elemento de audio.
-    </audio>
-    </section>
-    <br><br>
-    <section>
-    <p><strong>Canción:</strong> Nombre de la canción</p>
-    <p><strong>Artista:</strong> Nombre del artista</p>
+    <hr>
 
-    <audio controls>
-        <source src="cancion.mp3" type="audio/mpeg">
-        Tu navegador no soporta el elemento de audio.
-    </audio>
-    </section>
-    <br><br>
-    <section>
-    <p><strong>Canción:</strong> Nombre de la canción</p>
-    <p><strong>Artista:</strong> Nombre del artista</p>
+    <main>
+        <header>
+            <h2>Escoge tu canción favorita y disfruta de una experiencia relajante</h2>
+        </header>
 
-    <audio controls>
-        <source src="cancion.mp3" type="audio/mpeg">
-        Tu navegador no soporta el elemento de audio.
-    </audio>
-    </section>
-    <br><br>
-    <section>
-    <p><strong>Canción:</strong> Nombre de la canción</p>
-    <p><strong>Artista:</strong> Nombre del artista</p>
+        <article id="track1">
+            <h3>1. HASTA LA MUERTE</h3>
+            <p><strong>Artista:</strong> Eslabon Armado ft. Ivan Cornejo</p>
+            <audio controls>
+                <source src="cancion1.mp3" type="audio/mpeg">
+                Tu navegador no soporta el elemento de audio.
+            </audio>
+        </article>
 
-    <audio controls>
-        <source src="cancion.mp3" type="audio/mpeg">
-        Tu navegador no soporta el elemento de audio.
-    </audio>
-    </section>
-    <br><br>
-    <section>
-    <p><strong>Canción:</strong> Nombre de la canción</p>
-    <p><strong>Artista:</strong> Nombre del artista</p>
+        <article id="track2">
+            <h3>2. ROSA PASTEL</h3>
+            <p><strong>Artista:</strong> Belanova</p>
+            <audio controls>
+                <source src="cancion2.mp3" type="audio/mpeg">
+            </audio>
+        </article>
 
-    <audio controls>
-        <source src="cancion.mp3" type="audio/mpeg">
-        Tu navegador no soporta el elemento de audio.
-    </audio>
-    </section>
-    <br><br>
-    <section>
-    <p><strong>Canción:</strong> Nombre de la canción</p>
-    <p><strong>Artista:</strong> Nombre del artista</p>
+        <article id="track3">
+            <h3>3. YOU GET WHAT YOU GIVE</h3>
+            <p><strong>Artista:</strong> New Radicals</p>
+            <audio controls>
+                <source src="cancion3.mp3" type="audio/mpeg">
+            </audio>
+        </article>
 
-    <audio controls>
-        <source src="cancion.mp3" type="audio/mpeg">
-        Tu navegador no soporta el elemento de audio.
-    </audio>
-    </section>
-    <br><br>
+        <article id="track4">
+            <h3>4. BORRO CASSETTE</h3>
+            <p><strong>Artista:</strong> Maluma</p>
+            <audio controls>
+                <source src="../Multimedia/Borro cassette.mp3" type="audio/mpeg">
+            </audio>
+        </article>
 
-   
+        <article id="track5">
+            <h3>5. TUS OJOS</h3>
+            <p><strong>Artista:</strong> Beto Cardenas</p>
+            <audio controls>
+                <source src="../Multimedia/Tus ojos.mp3" type="audio/mpeg">
+            </audio>
+        </article>
+
+        <article id="track6">
+            <h3>6. AHORA TE PUEDES MARCHAR</h3>
+            <p><strong>Artista:</strong> Luis Miguel</p>
+            <audio controls>
+                <source src="../Multimedia/Ahora te puedes marchar.mp3" type="audio/mpeg">
+            </audio>
+        </article>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>&copy; 2026 - Programación Front-end</p>
+    </footer>
 
 </body>
 </html>
