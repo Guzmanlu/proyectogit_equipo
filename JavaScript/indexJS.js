@@ -13,5 +13,12 @@ window.addEventListener("load", () => {
 
             mainHeader.textContent = `🎵 Ahora suena: ${canciones[index]} 🎵`;
         });
+
+        audio.addEventListener('pause', () => {
+            const algunoReproduciendo = Array.from(audios).some(a => !a.paused);
+            if (!algunoReproduciendo) {
+                mainHeader.textContent = 'Escoge tu canción favorita y disfruta de una experiencia relajante';
+            }
+        });
     });
 });
